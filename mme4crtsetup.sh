@@ -102,7 +102,7 @@ echo -e "\033[32mDownloading MME4CRT_v2.0\033[0m"
 echo "$STR"
 sleep 1
 
-sudo git clone https://github.com/alphanu1/MME4CRT_v2.0 ~/mme4crt
+sudo git clone https://github.com/alphanu1/MME4CRT ~/mme4crt
 echo "$STR"
 echo -e "\033[32mDone\033[0m"
 echo "$STR"
