@@ -93,7 +93,7 @@ echo "$STR"
 sleep 1
 
 sudo apt-get build-dep retroarch -y
-sudo apt-get install git build-essential libgl-dev libudev-dev libasound2-dev libpulse-dev libsdl2-dev libvulkan-dev libjack-dev -y
+sudo apt-get install git build-essential libasound2-dev libpulse-dev libsdl2-dev libvulkan-dev libjack-dev -y
 echo "$STR"
 echo -e "\033[32mDone\033[0m"
 echo "$STR"
