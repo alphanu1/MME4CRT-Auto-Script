@@ -23,7 +23,7 @@ echo "$STR"
 xrandr | grep " connected" |  awk '{print$1}'
 
 echo "$STR"
-echo -e "\033[32mPlease type the connected output you wish to use for 15khz\033[0m"
+echo -e "\033[32mPlease type the connected output you wish to use for 15khz followed by [ENTER]\033[0m"
 echo "$STR"
 read output
 echo
