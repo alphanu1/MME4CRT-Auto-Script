@@ -39,7 +39,7 @@ echo "$STR"
 echo -e "\033[32mSetting file permissions for .xprofile\033[0m"
 echo "$STR"
 sleep 1
-sudo chmod 777 ~/.xprofile
+sudo chmod -R 777 ~/.xprofile
 echo "$STR"
 echo -e "\033[32mDone\033[0m"
 echo "$STR"
@@ -97,7 +97,7 @@ echo "$STR"
 echo -e "\033[32mSetting file permissions for mme4crt\033[0m"
 echo "$STR"
 sleep 1
-sudo chmod 777 ~/mme4crt
+sudo chmod -R 777 ~/mme4crt
 echo "$STR"
 echo -e "\033[32mDone\033[0m"
 echo "$STR"
