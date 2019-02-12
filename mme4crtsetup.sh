@@ -25,7 +25,7 @@ echo "$STR"
 
 echo -e "\033[32mCreating .xprofile using output "$output "\033[0m"
 echo "$STR"
-exec 3<> .xprofile
+exec 3<> ~/.xprofile
 	echo "#!/bin/sh" >&3
 	echo "xrandr --newmode \"700x480_59.941002\" 13.849698 700 742 801 867 480 490 496 533 interlace -hsync -vsync" >&3
 	echo "xrandr --addmode "$output" 700x480_59.941002" >&3
