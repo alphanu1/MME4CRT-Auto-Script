@@ -110,7 +110,7 @@ echo "$STR"
 echo -e "\033[32mDone\033[0m"
 echo "$STR"
 
-echo -e "\033[32mCompiling MME4CRT_v2.0\033[0m"
+echo -e "\033[32mCompiling MME4CRT\033[0m"
 echo "$STR"
 sleep 1
 cd ~/mme4crt && make -j4
@@ -118,7 +118,7 @@ echo "$STR"
 echo -e "\033[32mDone\033[0m"
 
 echo "$STR"
-echo -e "\033[32mInstalling MME4CRT_v2.0\033[0m"
+echo -e "\033[32mInstalling MME4CRT\033[0m"
 echo "$STR"
 sleep 1
 cd ~/mme4crt && sudo make install
