@@ -1,6 +1,6 @@
 #!/bin/bash
 
-intel_res="xrandr --newmode \"1400x480_intel\" 57.250 1489 1563 1792 1255 480 490 496 533 interlace -hsync -vsync"
+intel_res="xrandr --newmode \"1400x480_intel\" 28.625.426 1489 1563 1792 1255 480 490 496 533 interlace -hsync -vsync"
 nvidia_res="xrandr --newmode \"1280x480_intel\" 26.181840 1280 1362 1429 1639 480 490 496 533 interlace -hsync -vsync"
 native_res="xrandr --newmode \"700x480_59.941002\" 13.849698 700 742 801 867 480 490 496 533 interlace -hsync -vsync"
 
